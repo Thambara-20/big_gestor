@@ -13,7 +13,6 @@ if (!rootElement) {
 
 const root = ReactDOM.createRoot(rootElement);
 root.render(
-  <React.StrictMode>
     <HashRouter>
       <AuthProvider>
         <AppDataProvider>
@@ -23,5 +22,4 @@ root.render(
         </AppDataProvider>
       </AuthProvider>
     </HashRouter>
-  </React.StrictMode>
 );
